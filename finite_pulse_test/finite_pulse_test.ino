@@ -4,7 +4,7 @@
 #include "SerialReceiver.h"
 
 const unsigned int TRIGGER_PIN = 9;
-const unsigned long TRIGGER_HIGH_US = 50000;
+const unsigned int TRIGGER_HIGH_US = 500;
 const unsigned int DEFAULT_TRIGGER_FREQ = 30;
 const unsigned long DEFAULT_MAX_TRIGGER_COUNT = 5;
 
